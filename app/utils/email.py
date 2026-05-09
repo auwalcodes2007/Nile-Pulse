@@ -1,6 +1,9 @@
 from flask_mail import Message
 from ..extensions import mail
 from threading import Thread
+import logging
+
+logging.basicConfig(filename="email_errors.log", level=logging.ERROR)
 
 def send_async_email(app, msg):
     with app.app_context():
@@ -8,6 +11,7 @@ def send_async_email(app, msg):
             mail.send(msg)
         except Exception as e:
             # This prevents the thread from crashing the main process
+            logging.error(f"MAIL SYSTEM CRITICAL ERROR: {e}")
             print(f"ASYNC MAIL ERROR: {e}")
 
 def send_verification_alert(user_email, order_id, mismatches, total_items):
