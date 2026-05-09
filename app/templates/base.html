@@ -15,31 +15,32 @@
     <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
+                <!-- LOGO (Always visible) -->
                 <div class="flex items-center">
-                    <a href="{{ url_for('main.home') }}" class="text-2xl font-black tracking-tighter text-indigo-600">
+                    <a href="{{ url_for('main.home') }}" class="text-xl md:text-2xl font-black tracking-tighter text-indigo-600">
                         NILE<span class="text-gray-900">PULSE</span>
                     </a>
                 </div>
 
+                <!-- DESKTOP MENU (Hidden on Mobile) -->
                 <div class="hidden md:flex items-center space-x-8">
                     {% if current_user.is_authenticated %}
-                        <!-- This uses your new redirect logic -->
                         <a href="{{ url_for('main.dashboard_redirect') }}" class="font-semibold hover:text-indigo-600 transition">Dashboard</a>
-                        
-                        {% if current_user.role == 'customer' %}
-                            <a href="{{ url_for('bookings.create_order') }}" class="font-semibold hover:text-indigo-600 transition">Book Laundry</a>
-                        {% endif %}
-
-                        <div class="flex items-center gap-4 ml-4 pl-4 border-l border-gray-200">
-                            <span class="text-sm font-medium text-gray-500">{{ current_user.name }}</span>
-                            <a href="{{ url_for('auth.logout') }}" class="text-sm font-bold text-red-500 hover:text-red-600">Logout</a>
-                        </div>
+                        <a href="{{ url_for('auth.logout') }}" class="text-sm font-bold text-red-500">Logout</a>
                     {% else %}
-                        <a href="{{ url_for('main.home') }}" class="font-semibold hover:text-indigo-600 transition">Home</a>
                         <a href="{{ url_for('auth.login') }}" class="font-semibold hover:text-indigo-600 transition">Login</a>
-                        <a href="{{ url_for('auth.register') }}" class="bg-indigo-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-indigo-700 transition shadow-lg shadow-indigo-200">
-                            Get Started
-                        </a>
+                        <a href="{{ url_for('auth.register') }}" class="bg-indigo-600 text-white px-6 py-2 rounded-full font-bold">Get Started</a>
+                    {% endif %}
+                </div>
+
+                <!-- MOBILE "QUICK ACTION" BUTTON (Visible only on Mobile) -->
+                <div class="flex md:hidden items-center space-x-2">
+                    {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('main.dashboard_redirect') }}" class="text-sm font-bold text-indigo-600 border border-indigo-600 px-4 py-2 rounded-lg">Dashboard</a>
+                        <a href="{{ url_for('auth.logout') }}" class="text-sm font-bold text-red-600 border border-red-600 px-4 py-2 rounded-lg">Logout</a>
+                    {% else %}
+                        <a href="{{ url_for('auth.login') }}" class="text-sm font-bold text-indigo-600 px-4 py-2">Login</a>
+                        <a href="{{ url_for('auth.register') }}" class="text-sm font-bold text-gray-600 px-4 py-2">Start</a>
                     {% endif %}
                 </div>
             </div>

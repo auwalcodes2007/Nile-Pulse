@@ -8,7 +8,7 @@
             </span>
             <h1 class="text-6xl font-black tracking-tight text-gray-900 sm:text-7xl">
                 Laundry day, <br/> 
-                <span class="text-5xl text-indigo-600 italic">reimagined...</span>
+                <span class="text-5xl text-indigo-600 italic" id="typed"></span>
             </h1>
             <p class="max-w-2xl mx-auto mt-6 text-xl text-gray-500 leading-relaxed">
                 Zero stress. Zero queues. Track your laundry from pickup to delivery right from your hostel. The "Financial Memory" of Nile's campus economy starts here.
@@ -50,4 +50,24 @@
         </div>
     </div>
 </div>
+
+<!-- Load Typed.js from CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#typed', {
+    // Nile-specific strings that follow "Laundry day..."
+    strings: [
+        'reimagined...', 
+        'made easy.', 
+        'on your schedule.', 
+        'perfectly handled.'
+    ],
+    typeSpeed: 60,
+    backSpeed: 40,
+    backDelay: 2000, // Pause for 2 seconds before deleting
+    loop: true,
+    showCursor: true,
+    cursorChar: '|'
+  });
+</script>
 {% endblock %}

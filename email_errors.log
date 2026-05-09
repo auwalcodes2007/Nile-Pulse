@@ -400,3 +400,14 @@ INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:53] "[36mGET /static/auth/style.
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "[32mPOST /staff/verify-order/18 HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "GET /staff/dashboard HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:41:59] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:41:59] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:41:59] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:42:03] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:42:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:42:50] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:43:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:43:46] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:45:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:45:27] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
