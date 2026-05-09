@@ -149,3 +149,19 @@ INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:23] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:23] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:34] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:34] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105

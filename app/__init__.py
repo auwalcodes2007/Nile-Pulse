@@ -12,6 +12,8 @@ def create_app():
 
     # Configuration
     app.config.from_object(Config)
+    app.config['PROPAGATE_EXCEPTIONS'] = True 
+    # For Render to show the errors
     
     # Initialize Extensions
     db.init_app(app)
