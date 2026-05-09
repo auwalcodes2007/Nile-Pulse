@@ -1,6 +1,5 @@
 from flask_mail import Message
 from ..extensions import mail
-from flask import current_app
 from threading import Thread
 
 def send_async_email(app, msg):
@@ -12,6 +11,8 @@ def send_async_email(app, msg):
             print(f"ASYNC MAIL ERROR: {e}")
 
 def send_verification_alert(user_email, order_id, mismatches, total_items):
+    from flask import current_app
+
     """Sends email if items exceed limit or mismatch."""
     app = current_app._get_current_object()
     msg = Message(f"Action Required: Laundry Order #{order_id}",
