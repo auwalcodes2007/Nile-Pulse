@@ -250,3 +250,153 @@ INFO:werkzeug: * Debugger PIN: 578-367-088
 INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/email.py', reloading
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:19] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:19] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:31] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:31] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:31] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:31] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:47] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:47] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:55] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:56:55] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:07] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:07] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:37] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:37] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:46] "GET /staff/delivery-queue HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:46] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:50] "GET /bookings/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:51] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:55] "[32mPOST /bookings/create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:55] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:55] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:57:59] "GET /bookings/order/12/invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:00] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:03] "[32mGET /bookings/pay/12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:14] "[32mGET /bookings/payment/callback?trxref=gehxizjfu3&reference=gehxizjfu3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:14] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:14] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:18] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:18] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:20] "GET /staff/paid-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:20] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:21] "[32mPOST /staff/dispatch-order/12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:21] "GET /staff/paid-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 12:58:21] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/email.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/email.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:23] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:23] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:23] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:28] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:28] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:29] "[32mPOST /staff/receive-order/15 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:29] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:29] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:32] "GET /staff/verify-order/15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:00:32] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+ERROR:root:MAIL SYSTEM CRITICAL ERROR: [Errno 101] Network is unreachable
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:02:49] "[32mPOST /staff/verify-order/15 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:02:49] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:02:49] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/email.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/config.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:07] "GET /bookings/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:07] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:09] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:09] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:13] "GET /bookings/order/15/invoice HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:13] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:17] "[32mGET /bookings/pay/15 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:27] "[32mGET /bookings/payment/callback?trxref=e5tm43d9md&reference=e5tm43d9md HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:27] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:09:27] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:34] "GET /staff/paid-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:34] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:35] "[32mPOST /staff/dispatch-order/15 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:35] "GET /staff/paid-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:35] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:40] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:11:40] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Failed to send email: [Errno 101] Network is unreachable
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/config.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:13:55] "GET /bookings/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:13:55] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:13:59] "[32mPOST /bookings/create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:00] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:00] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:03] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:04] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:06] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:06] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:08] "[32mPOST /staff/receive-order/16 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:08] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:08] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:09] "GET /staff/verify-order/16 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:09] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:13] "[32mPOST /staff/verify-order/16 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:13] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:14:13] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+ERROR:root:MAIL SYSTEM CRITICAL ERROR: [Errno 101] Network is unreachable
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:42] "GET /bookings/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:42] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:47] "[32mPOST /bookings/create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:47] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:47] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:50] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:50] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:52] "[32mPOST /staff/receive-order/17 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:52] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:52] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:53] "GET /staff/verify-order/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:53] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:56] "[32mPOST /staff/verify-order/17 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:56] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:17:56] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/email.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:39] "GET /bookings/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:39] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:45] "[32mPOST /bookings/create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:45] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:45] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:49] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:49] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:52] "[32mPOST /staff/receive-order/18 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:52] "GET /staff/pending-orders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:52] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:53] "GET /staff/verify-order/18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:53] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "[32mPOST /staff/verify-order/18 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "GET /staff/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:22:56] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -

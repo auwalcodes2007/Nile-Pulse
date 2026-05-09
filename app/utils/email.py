@@ -21,7 +21,7 @@ def send_verification_alert(user_email, order_id, mismatches, total_items):
     app = current_app._get_current_object()
     msg = Message(f"Action Required: Laundry Order #{order_id}",
                   recipients=[user_email],
-                  sender="admin@nilelaundry.com")
+                  sender="mohammedauwalhassan07@gmail.com")
     
     msg.body = f"Hello, your order #{order_id} has been processed. \n\n"
     if len(mismatches) > 0:
