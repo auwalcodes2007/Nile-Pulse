@@ -12,14 +12,10 @@ def create_app():
 
     # Configuration
     app.config.from_object(Config)
-    app.config['PROPAGATE_EXCEPTIONS'] = True 
-    # For Render to show the errors
+    app.config['PROPAGATE_EXCEPTIONS'] = True # For Render to show the errors
     
     # Initialize Extensions
     db.init_app(app)
-    with app.app_context():
-        db.create_all() 
-        print("Database tables created successfully!")
     migrate.init_app(app, db)
     bcrypt.init_app(app)
     login_manager.init_app(app)
@@ -44,5 +40,11 @@ def create_app():
     app.register_blueprint(bookings_bp, url_prefix="/bookings")
     app.register_blueprint(staff_bp, url_prefix="/staff")
     app.register_blueprint(main_bp, url_prefix="/")
+
+    with app.app_context():
+        # Import models here to be absolutely sure SQLAlchemy sees them
+        from . import models 
+        db.create_all()
+        print("Database tables created successfully!")
 
     return app
