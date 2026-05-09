@@ -411,3 +411,51 @@ INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:43:46] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:43:46] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:45:27] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/May/2026 13:45:27] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 578-367-088
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 578-367-088
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 578-367-088
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 578-367-088
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 578-367-088
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/main/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105

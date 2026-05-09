@@ -16,16 +16,25 @@ def send_async_email(app, msg):
             logging.error(f"Failed to send email: {str(e)}")
 
 def send_order_update_email(order, template, subject):
-    """
-    Universal notification helper.
-    US 6.1 & 6.2: Handles receipts and status updates.
-    """
-    msg = Message(
-        subject=f"Nile Pulse: {subject} (Order #{order.id})",
-        recipients=[order.customer.email]
-    )
-    # We pass the order object so the template can loop through order.items
-    msg.html = render_template(f"emails/{template}.html", order=order)
-
     app = current_app._get_current_object()
-    Thread(target=send_async_email, args=(app, msg)).start()
+    
+    def send_thread(app, order, template, subject):
+        with app.app_context():
+            try:
+                # Debug print to console
+                print(f"DEBUG: Attempting to send {subject} to {order.customer.email}")
+                
+                msg = Message(
+                    subject=f"Nile Pulse: {subject} (Order #{order.id})",
+                    recipients=[order.customer.email],
+                    sender="mohammedauwalhassan07@gmail.com" # Explicitly add sender
+                )
+                msg.html = render_template(f"emails/{template}.html", order=order)
+                mail.send(msg)
+                print(f"DEBUG: {subject} Email Sent Successfully!")
+            except Exception as e:
+                logging.error(f"Failed to send email: {str(e)}")
+                print(f"DEBUG EMAIL ERROR: {e}")
+
+    Thread(target=send_thread, args=(app, order, template, subject)).start()
+    
