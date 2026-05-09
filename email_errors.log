@@ -130,3 +130,22 @@ INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/__init__.py', r
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:45:52] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:45:52] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:45:52] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:04] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:04] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:14] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:14] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:14] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:14] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:20] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:20] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:22] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:22] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:22] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:23] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 10:46:34] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
