@@ -5,7 +5,11 @@ from threading import Thread
 
 def send_async_email(app, msg):
     with app.app_context():
-        mail.send(msg)
+        try:
+            mail.send(msg)
+        except Exception as e:
+            # This prevents the thread from crashing the main process
+            print(f"ASYNC MAIL ERROR: {e}")
 
 def send_verification_alert(user_email, order_id, mismatches, total_items):
     """Sends email if items exceed limit or mismatch."""
