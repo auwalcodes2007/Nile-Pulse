@@ -122,3 +122,5 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 08:50:54] "GET /bookings/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2026 08:50:54] "[36mGET /static/auth/style.css HTTP/1.1[0m" 304 -
