@@ -15,6 +15,9 @@ def create_app():
     
     # Initialize Extensions
     db.init_app(app)
+    with app.app_context():
+        db.create_all() 
+        print("Database tables created successfully!")
     migrate.init_app(app, db)
     bcrypt.init_app(app)
     login_manager.init_app(app)
