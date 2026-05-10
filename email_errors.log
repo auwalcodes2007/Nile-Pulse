@@ -459,3 +459,7 @@ INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notificat
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 834-350-105
+INFO:werkzeug: * Detected change in '/home/auwal/laundry_app/app/utils/notifications.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 834-350-105

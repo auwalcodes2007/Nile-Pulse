@@ -7,13 +7,23 @@ from threading import Thread
 # Set up logging for failed emails (US 6.1 requirement)
 logging.basicConfig(filename='email_errors.log', level=logging.ERROR)
 
+import time
+
 def send_async_email(app, msg):
     with app.app_context():
-        try:
-            mail.send(msg)
-        except Exception as e:
-            # US 6.1: Failed attempts are logged, but system keeps running
-            logging.error(f"Failed to send email: {str(e)}")
+        retries = 3
+        while retries > 0:
+            try:
+                mail.send(msg)
+                print("Email sent successfully!")
+                break # Exit loop on success
+            except Exception as e:
+                retries -= 1
+                logging.error(f"Email failed. Retries left: {retries}. Error: {e}")
+                if retries > 0:
+                    time.sleep(5) # Wait 5 seconds before trying again
+                else:
+                    print("CRITICAL: Email failed after 3 attempts.")
 
 def send_order_update_email(order, template, subject):
     app = current_app._get_current_object()
