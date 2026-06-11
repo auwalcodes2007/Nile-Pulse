@@ -7,7 +7,7 @@ Nile Pulse is a full-stack digital solution designed to streamline laundry opera
 ---
 
 ## 🚀 Key Features
-*   **Student Dashboard:** Create laundry orders, track real-time status, and view transaction history.
+*   **Student Dashboard:** Create laundry orders, track real-time status, pay for orders and view transaction history.
 *   **Staff Management:** A dedicated interface for verifying items, updating order status, and managing pickups.
 *   **Automated Notifications:** Asynchronous email system (using Python threading) to send receipts and status alerts.
 *   **Secure Payments:** Integrated with the **Paystack API** for real-world Naira transactions.
